@@ -1,0 +1,57 @@
+
+	songs = [
+		{	"title": "Scuttle Buttin'",
+			"artist": "Stevie Ray Vaughan",
+			"genre": "Blues Rock",
+			"year": "1984"},
+
+		{	"title": "Couldn't Stand the Weather",
+			"artist": "Stevie Ray Vaughan",
+			"genre": "Blues Rock",
+			"year": "1984"},
+
+		{	"title": "Voodoo Chile' (Slight Return)",
+			"artist": "Stevie Ray Vaughan",
+			"genre": "Blues Rock",
+			"year": "1984"},
+
+		{	"title": "Cold Shot",
+			"artist": "Stevie Ray Vaughan",
+			"genre": "Blues Rock",
+			"year": "1984"},
+
+		{	"title": "Honey Bee",
+			"artist": "Stevie Ray Vaughan",
+			"genre": "Blues Rock",
+			"year": "1984"},
+
+		{	"title": "Pride and Joy",
+			"artist": "Stevie Ray Vaughan",
+			"genre": "Blues Rock",
+			"year": "1984"},
+
+		{	"title": "Rude Mood",
+			"artist": "Stevie Ray Vaughan",
+			"genre": "Blues Rock",
+			"year": "1984"},
+
+		{	"title": "Tin Pan Alley (AKA Roughest Place in Town)",
+			"artist": "Stevie Ray Vaughan",
+			"genre": "Blues Rock",
+			"year": "1984"},
+
+		{	"title": "Tin Pan Alley (AKA Roughest Place in Town)",
+			"artist": "Stevie Ray Vaughan",
+			"genre": "Blues Rock",
+			"year": "1984"},
+
+		{	"title": "Superstition",
+			"artist": "Stevie Wonder",
+			"genre": "Funk",
+			"year": "1973"},
+
+		{	"title": "Love On Top",
+			"artist": "Beyonce",
+			"genre": "Pop",
+			"year": "2011"},
+	]	

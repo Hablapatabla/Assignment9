@@ -1,0 +1,50 @@
+<html>
+<head>
+	<title>Setlist</title>
+	
+  <style> 
+
+  </style>
+  <script src="setlist.json"> </script>
+  <script language="javascript">
+    function show() {
+      var json = JSON.stringify(songs);
+      for(var i = 0; i < songs.length; ++i) {
+         document.write("Title: " + songs[i].title + " <br> Artist: " + songs[i].artist + " <br> Genre: " + songs[i].genre + " <br> Year: " + songs[i].year + "<br><br>");
+      }
+    }
+
+    show();
+
+    function filter() {
+      var option = document.getElementById("ID").value;
+      for(var i = 0; i < songs.length; ++i) {
+        if(songs[i].genre == option) {
+          document.write("Title: " + songs[i].title + "<br> ");
+        }
+      }
+    }
+    
+
+
+  </script>
+
+</head>
+<body> 
+
+  <h1> Our Setlist (We love SRV) </h1>
+
+  <form>
+    <label>Would you like to see our selections in a certain genre? </label>
+    <select id="ID">
+      <option value="Blues Rock">Blues Rock</option>
+      <option value="Funk">Funk</option>
+      <option value="Pop">Pop</option> 
+    </select>
+
+    <button onclick="filter()">Submit</button>
+  </form>
+
+
+</body>
+</html>
